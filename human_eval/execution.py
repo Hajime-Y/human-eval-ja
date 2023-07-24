@@ -45,7 +45,7 @@ def check_correctness(problem: Dict, completion: str, timeout: float,
                 exec_globals = {}
                 with swallow_io():
                     with time_limit(timeout):
-# WARNING
+# WARNING (English)
 # This program exists to execute untrusted model-generated code. Although
 # it is highly unlikely that model-generated code will do something overtly
 # malicious in response to this test suite, model-generated code may act
@@ -55,6 +55,15 @@ def check_correctness(problem: Dict, completion: str, timeout: float,
 # information on how OpenAI sandboxes its code, see the accompanying paper.
 # Once you have read this disclaimer and taken appropriate precautions, 
 # uncomment the following line and proceed at your own risk:
+# WARNING (日本語)
+# このプログラムは、信頼されていないモデル生成コードを実行するために存在します。
+# モデルによって生成されたコードがこのテストスイートに対してあからさまに悪意ある行動を取る
+# 可能性は極めて低いですが、モデルによって生成されたコードは、モデルの能力不足やアライメント
+# が原因で破壊的な行動を取るかもしれません。ユーザは、この評価スイートがホストやネットワーク
+# 上で破壊的な動作をしないように、サンドボックス化することを強く推奨します。
+# OpenAIのサンドボックス化の方法については、添付の論文をご覧ください。
+# この免責事項を読み、適切な予防措置を講じたら、以下の行のコメントを解除し、
+# 自己責任で続行してください：
 #                         exec(check_program, exec_globals)
                 result.append("passed")
             except TimeoutException:
