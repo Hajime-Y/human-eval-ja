@@ -21,7 +21,7 @@ $ pip install -e human-eval
 
 **このプログラムは、信頼されていないモデル生成コードを実行するために存在します。
 堅牢なセキュリティ・サンドボックスの外では実行しないことが強く推奨されます。 `execution.py`の[execution
-call](https://github.com/Hajime-Y/human-eval-ja/blob/312c5e5532f0e0470bf47f77a6243e02a61da530/human_eval/execution.py#L48-L58)は、潜在的に安全でない方法でコードを実行する前に、ユーザーにこの免責事項を読んでもらうために
+call](https://github.com/Hajime-Y/human-eval-ja/blob/d947e722beec93407d23c38e89293e32f06225ea/human_eval/execution.py#L48-L67)は、潜在的に安全でない方法でコードを実行する前に、ユーザーにこの免責事項を読んでもらうために
 意図的にコメントアウトされています。より詳しい情報と説明は `execution.py` のコメントを参照してください。**
 
 上記の指示に従って実行できるようにした後、サンプルを生成し、以下のJSON Lines (jsonl)形式で保存します：
