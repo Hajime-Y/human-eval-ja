@@ -14,7 +14,7 @@ $ conda activate codex
 
 Check out and install this repository:
 ```
-$ git clone https://github.com/openai/human-eval
+$ git clone https://github.com/Hajime-Y/human-eval-ja
 $ pip install -e human-eval
 ```
 
@@ -22,7 +22,7 @@ $ pip install -e human-eval
 
 **This program exists to run untrusted model-generated code. Users are strongly
 encouraged not to do so outside of a robust security sandbox. The [execution
-call](https://github.com/openai/human-eval/blob/master/human_eval/execution.py#L48-L58)
+call](https://github.com/Hajime-Y/human-eval-ja/blob/312c5e5532f0e0470bf47f77a6243e02a61da530/human_eval/execution.py#L48-L58)
 in `execution.py` is deliberately commented out to ensure users read this
 disclaimer before running code in a potentially unsafe manner. See the comment in
 `execution.py` for more information and instructions.**
